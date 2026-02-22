@@ -221,9 +221,9 @@ Edit the services section in `index.html` (lines 185-255):
 
 ## 🆘 Support
 
-For any issues or customization requests:
-- Email: contact@vardaanclinic.com (update with actual email)
+For any issues or customization requests, contact:
 - Phone: +91 9479881390
+- WhatsApp: [Chat on WhatsApp](https://wa.me/919479881390)
 
 ## 📄 License
 

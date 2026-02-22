@@ -104,7 +104,8 @@ appointmentForm.addEventListener('submit', (e) => {
     }
     
     // Format date for better readability
-    const formattedDate = new Date(date).toLocaleDateString('en-IN', {
+    const dateObj = new Date(date + 'T00:00:00');
+    const formattedDate = dateObj.toLocaleDateString('en-IN', {
         weekday: 'long',
         year: 'numeric',
         month: 'long',
