@@ -386,7 +386,8 @@
 
                         <div class="form-group">
                             <label for="phone"><i class="fas fa-phone"></i> Phone Number *</label>
-                            <input type="tel" id="phone" name="phone" placeholder="9876543210" pattern="[0-9]{10}" required>
+                            <input type="tel" id="phone" name="phone" placeholder="9876543210" pattern="[0-9]{10}" aria-describedby="phone-help" required>
+                            <small id="phone-help" style="display: none;">Enter 10-digit mobile number</small>
                         </div>
 
                         <div class="form-group">

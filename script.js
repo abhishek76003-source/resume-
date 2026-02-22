@@ -104,6 +104,8 @@ appointmentForm.addEventListener('submit', (e) => {
     }
     
     // Format date for better readability
+    // Append 'T00:00:00' to ensure date is interpreted in local timezone, not UTC
+    // This prevents the date from shifting to the previous day in certain timezones
     const dateObj = new Date(date + 'T00:00:00');
     const formattedDate = dateObj.toLocaleDateString('en-IN', {
         weekday: 'long',
